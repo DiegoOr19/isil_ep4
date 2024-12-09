@@ -1,0 +1,107 @@
+@font-face{
+    src: url(fonts/ChelaOne-Regular.ttf);
+    font-family: chelaone;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+h1{
+    font-family: chelaone;
+}
+
+body{
+    background-image: url(img/fondo.jpeg);
+}
+
+#menubarra{
+    background-color: rgb(180, 180, 180);
+    width: 100%;
+}
+
+#menubarra li{
+    list-style-type: none;
+    
+}
+
+#menubarra ul{
+    display: flex;
+}
+
+#menubarra a{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    display: block;
+    width: 150px;
+}
+
+a:hover{
+    background-color: rgb(150, 150, 150);
+    color: cyan;
+}
+
+#titulo{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/*
+#contenedor{
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+
+.tarjeta{
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
+*/
+
+#contenedor{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    
+}
+
+.tarjeta{
+    background-color: beige;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+img{
+    width: 100%;
+
+}
+
+.tarjeta h4{
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.tarjeta a{
+    display: block;
+    background-color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 50px;
+}
